@@ -1,0 +1,77 @@
+.WorkSection {
+  position: relative; /* Add this */
+  padding: 50px 0;
+  color: white;
+  text-align: center;
+  min-height: 300px;
+  height: 100%;
+}
+
+.SkyImage {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover; /* Ensures the image maintains aspect ratio */
+}
+
+.stepsoverlay {
+  position: absolute;
+  top: 50%; /* Adjust as needed */
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center it properly */
+  text-align: center;
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.step {
+    display: flex;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+
+.iconContainer {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.icon {
+    font-size: 24px;
+    color: white;
+}
+
+.textContainer {
+    text-align: left;
+    flex-grow: 1;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.arrow {
+    font-size: 30px;
+    position: absolute;
+    right: -30px;
+    color: white;
+    font-family: cursive;
+    transform: rotate(-10deg);
+}

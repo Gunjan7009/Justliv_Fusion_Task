@@ -1,0 +1,52 @@
+.CardSection {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.heading {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 300px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    height: 100%; 
+}
+
+.icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cardTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.cardDescription {
+    font-size: 14px;
+    flex-grow: 1; /* Pushes the image to the bottom */
+}
+
+.cardImage {
+    width: 100%;
+    object-fit: cover; /* Ensures consistent image display */
+    border-radius: 8px;
+    margin-top: 15px; /* Add spacing from text */
+}

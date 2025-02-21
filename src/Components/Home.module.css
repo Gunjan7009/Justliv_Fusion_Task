@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.heroContainer {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-bottom: 5px solid #ff6b81; /* Adds a bottom border */
+}
+
+.heroImage {
+  width: 100%;
+  height: 100vh; 
+  /* object-fit: contain;  */
+}
+
+.foverlay {
+  position: absolute;
+  top: 65%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.heart {
+  color: #ff6b81;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.waitlistButton {
+  background: #ff6b81;
+  color: #000;
+  font-size: 1rem;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.waitlistButton:hover {
+  background: #ff4f64;
+}
+
+.missionSection {
+  text-align: center;
+  padding: 50px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hearts {
+  color: #ff6699;
+  font-size: 22px;
+  margin-left: 5px;
+}
+
+.text {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.purpose {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.highlight {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.highlight strong {
+  color: #222;
+}
+
+.stress {
+  color: #ff6699;
+}
+
+.subtext {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.missionImage {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.waitingSection {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.backgroundImage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5); /* Dark transparent overlay */
+  /* padding: 50px; */
+  border-radius: 10px;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-size: 16px;
+  opacity: 0.9;
+  margin-bottom: 20px;
+  color: white; 
+}
+
+.waitingButton {
+  background: #ff6699;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out;
+}
+
+.waitingButton:hover {
+  background: #ff3366;
+}
+
+.icon {
+  font-size: 18px;
+}

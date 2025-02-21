@@ -1,0 +1,44 @@
+.footer {
+  background-color: #3b4a6b;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+}
+
+.logo {
+  width: 120px; /* Adjust size as needed */
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 16px;
+}
+
+.icon {
+  font-size: 18px;
+}
+
+.links {
+  margin: 10px 0;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.socialIcons {
+  margin-top: 10px;
+}
+
+.copyright {
+  font-size: 14px;
+  margin-top: 10px;
+}
