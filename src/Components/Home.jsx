@@ -44,13 +44,25 @@ const Home = () => {
       <Work />
       <div className={styles.missionSection}>
         <h2 className={styles.headingone}>Our Mission <span className={styles.hearts}>💕</span></h2>
+         {isMobile && <div>
+        <p className={styles.mitext}>
+          Parents need a simple way to find, book, and <br />track their kids' activities.
+          Businesses need a better way to be found and to keep families coming back.
+        </p>
+        <span className={styles.mipurpose}>Our purpose is to</span>
+        <p className={styles.mihighlight}>
+          make parents' lives <strong><span style={{color:"#ff6699"}}>easier</span>,<br /><span style={{color:"#ff6699"}}> happier</span>, and <span style={{color:"#ff6699"}}>less stressful</span>.</strong>
+        </p>
+        <p className={styles.misubtext}>As parents and business owners, we get it.</p>
+        </div>
+        }
         <p className={styles.text}>
           Parents need a simple way to find, book, and track their kids' activities. <br />
           Businesses need a better way to be found and to keep families coming back.
         </p>
         <span className={styles.purpose}>Our purpose is to</span>
         <p className={styles.highlight}>
-          make parents' lives <strong>easier, happier, and <span className={styles.stress}>less stressful</span>.</strong>
+          make parents' lives <strong><span style={{color:"#ff6699"}}>easier</span>, <span style={{color:"#ff6699"}}>happier</span>, and <span style={{color:"#ff6699"}}>less stressful</span>.</strong>  make parents' lives <strong><span style={{color:"#ff6699"}}>easier</span>, <span style={{color:"#ff6699"}}>happier</span>, and <span style={{color:"#ff6699"}}>less stressful</span>.</strong>
         </p>
         <p className={styles.subtext}>As parents and business owners, we get it.</p>
         <img src={FmailyImage} alt="Family Camping" className={styles.missionImage} />
