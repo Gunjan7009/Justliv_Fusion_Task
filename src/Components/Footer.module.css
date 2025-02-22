@@ -1,11 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
 .footer {
   background-color: #3b4a6b;
   color: white;
   text-align: center;
   padding: 20px;
-  font-family: "Arial", sans-serif;
+  font-family: "Lato", serif;
+  display: flex;
+  flex-direction: column;
 }
-
+.footeroneContainer{
+  margin-top: 50px;
+}
+.footertwoContainer{
+  padding-top: 64px;
+}
 .logo {
   width: 120px; /* Adjust size as needed */
   height: auto;
@@ -37,8 +50,17 @@
 .socialIcons {
   margin-top: 10px;
 }
+.linkedin{
+  margin-top: 30px ;
+  margin-bottom: 30px;
+  height: 25px;
+}
 
 .copyright {
   font-size: 14px;
+  margin-top: 10px;
+}
+
+.accessb{
   margin-top: 10px;
 }
