@@ -1,4 +1,5 @@
 import React from 'react'
+import AutoAwesomeOutlinedIcon from '@mui/icons-material/AutoAwesomeOutlined';
 import LaptopImag from '../assets/laptop.png'
 import ChidImage from '../assets/child.png'
 import MotherImage from '../assets/mother1.png'
@@ -32,7 +33,7 @@ const Cards = () => {
             <div className={styles.cardContainer}>
                 {features.map((feature, index) => (
                     <div key={index} className={styles.card}>
-                        <span className={styles.icon}>✨</span>
+                        <span className={styles.icon}><AutoAwesomeOutlinedIcon /></span>
                         <h3 className={styles.cardTitle}>{feature.title}</h3>
                         <p className={styles.cardDescription}>{feature.description}</p>
                         <img src={feature.image} alt={feature.title} className={styles.cardImage} />

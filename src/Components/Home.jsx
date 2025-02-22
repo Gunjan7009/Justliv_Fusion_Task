@@ -15,7 +15,6 @@ const Home = () => {
     <div className={styles.hero}>
       <img src={HeroImage} alt="Hero" className={styles.heroImage} />
       <div className={styles.foverlay}>
-        {/* <img src={LogoImage} alt="JustLiv Logo" className={styles.logo} /> */}
         <h2 className={styles.title}>
           Your Child's Perfect Schedule <br /> in Just a Few Clicks
         </h2>
