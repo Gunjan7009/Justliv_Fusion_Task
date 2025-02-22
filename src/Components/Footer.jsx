@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/logo1.png";
+import linkedinn from "../assets/linkedinn.svg";
 import linkedin from "../assets/linkedin.svg";
 import instagram from "../assets/instagram.svg";
 // import { FaInstagram, FaLinkedin } from "react-icons/fa";
@@ -28,7 +29,7 @@ const Footer = () => {
                 </div>
                 <div className={styles.socialIcons}>
                     <a href="https://www.linkedin.com/company/justliv" target="_blank" rel="noreferrer">
-                        <img src={linkedin}
+                        <img src={linkedinn}
                             alt="LinkedIn"
                             className={styles.linkedin}
                         />
