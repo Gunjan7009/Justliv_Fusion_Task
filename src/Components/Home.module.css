@@ -73,7 +73,7 @@ body {
 
 .missionSection {
   text-align: center;
-  padding: 0px 20px 50px 20px;
+  padding: 100px 20px 50px 20px;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -118,9 +118,9 @@ body {
   color: #222;
 }
 
-.stress {
+/* .stress {
   color: #ff6699;
-}
+} */
 
 .subtext {
   font-family: 'Lato', serif;
@@ -128,7 +128,40 @@ body {
   color: #666;
   margin-bottom: 20px;
 }
+.mitext{
+  font-family: 'Lato', serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  display: none;
+}
 
+.mipurpose{
+  font-family: 'Lato', serif;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  display: none;
+}
+.mihighlight{
+  font-family: 'Lato', serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 0px;
+  display: none;
+}
+
+.mistress{
+  color: #ff6699;
+  display: none;
+}
+.misubtext{
+  font-family: 'Lato', serif;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+  display: none;
+}
 .missionImage {
   width: 512px;
   height: 276px;
@@ -292,11 +325,51 @@ body {
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
   }
   .headingone{
-    margin-left: 30px;
+    margin-left: 10px;
     text-align: left;
   }
   .hearts{
     margin-left: 135px;
+  }
+   .text{
+   display: none;
+  }
+  .mitext{
+    margin-left: 10px;
+    display: block;
+    text-align: left;
+  }
+  .purpose{
+    display: none;
+  }
+  .mipurpose{
+    margin-left: 10px;
+    text-align: left;
+    display: block;
+  }
+  .highlight{
+    
+    display: none;
+  }
+  .mihighlight{
+    margin-left: 10px;
+    text-align: left;
+    display: block;
+  }
+  /* .stress{
+    display: none;
+  }
+  .mistress{
+    display: block;
+    margin-left:-80px ;
+  } */
+  .subtext{
+    display: none;
+  }
+  .misubtext{
+    text-align: left;
+    margin-left: 10px;
+    display: block;
   }
 }
 
